@@ -45,7 +45,7 @@
         The use of both CASSANDRA_USE_JDK11 and use-jdk11 is deprecated.
     -->
     <property name="java.default" value="11" />
-    <property name="java.supported" value="11,17" />
+    <property name="java.supported" value="11,17,21" />
 
     <!-- directory details -->
     <property name="basedir" value="."/>

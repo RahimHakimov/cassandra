@@ -75,6 +75,10 @@ memtable:
             class_name: TrieMemtable
             parameters:
                 shards: 4
+        new_trie:
+            class_name: NewTrieMemtable
+            parameters:
+                shards: 4
         skiplist_sharded:
             class_name: ShardedSkipListMemtable
             parameters:

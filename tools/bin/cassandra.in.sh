@@ -77,7 +77,7 @@ if [ -z $JAVA ] ; then
 fi
 
 # Matches variable 'java.supported' in build.xml
-java_versions_supported=11,17
+java_versions_supported=11,17,21
 
 # Determine the sort of JVM we'll be running on.
 java_ver_output=`"${JAVA:-java}" -version 2>&1`
